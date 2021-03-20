@@ -1,7 +1,16 @@
 import React from 'react';
+import Brand from '../Components/brand';
+import NavMenu from './Navbar';
 
 const Header = () => {
-   return <header>Header</header>;
+   return (
+      <header className='pb-12 bg-gradient-to-b from-white to-transparent z-30 fixed w-full top-0 left-0'>
+         <div className='container flex items-center justify-between py-4'>
+            <Brand />
+            <NavMenu />
+         </div>
+      </header>
+   );
 };
 
 export default Header;

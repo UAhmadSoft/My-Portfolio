@@ -14,7 +14,7 @@ function App() {
    return (
       <div className='App'>
          <ThemeProvider theme={theme}>
-            {/* <Header /> */}
+            <Header />
             <Switch>
                <Route exact path='/' component={Home} />
                <Route exact path='/about' component={About} />
