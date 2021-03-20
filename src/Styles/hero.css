@@ -1,0 +1,11 @@
+.hero {
+   background: rgb(240, 249, 255) url('../Assets/Images/blob-bg.svg')
+      bottom left no-repeat;
+   min-height: 650px;
+}
+
+@media (max-width: 768px) {
+   .hero {
+      background-size: 200%;
+   }
+}
