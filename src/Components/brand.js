@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import image2 from '../Assets/Images/image.jpg';
+import image2 from '../Assets/Images/profile.jpg';
 
 const Brand = ({ className }) => {
    return (
@@ -13,13 +13,23 @@ const Brand = ({ className }) => {
          <img
             placeholder='blurred'
             src={image2}
-            width={48}
+            style={{
+               width: 70,
+               height: 70,
+            }}
             alt='Umad Ahmad'
             className='rounded-full mr-2'
          />
-         <span className='text-gray-900 font-bold tracking-tighter'>
+         <h1
+            className='font-bold tracking-tighter'
+            style={{
+               letterSpacing: 1,
+               fontFamily: 'Nunito, sans-serif',
+               fontSize: '1.2em',
+            }}
+         >
             Developer Ahmad
-         </span>
+         </h1>
       </NavLink>
    );
 };

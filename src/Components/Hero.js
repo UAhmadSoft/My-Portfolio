@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import cls from 'classnames';
 import '../Styles/hero.css';
 import { NavLink } from 'react-router-dom';
@@ -7,7 +7,7 @@ const Hero = () => {
    return (
       <section
          className={cls(
-            'h-screen w-full flex items-center relative overflow-hidden hero'
+            `h-screen w-full flex items-center relative overflow-hidden hero`
          )}
       >
          <div className='container md:-mt-40'>

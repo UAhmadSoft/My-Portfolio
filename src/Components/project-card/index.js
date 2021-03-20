@@ -19,11 +19,11 @@ const ProjectCard = ({ className = '', data }) => {
          onBlur={() => setHovering(false)}
          className={cls('rounded-3xl max-w-md border', className)}
       >
-         <NavLink
+         <a
             target='_blank'
-            rel='noreferrer'
+            // rel='noreferrer'
             title='Go to live website'
-            to={data.url}
+            href={data.url}
          >
             <Tilt
                tiltMaxAngleX={12}
@@ -76,18 +76,18 @@ const ProjectCard = ({ className = '', data }) => {
                   />
                </div>
 
-               <GatsbyImage
-                  alt={data.description}
+               <img
+                  alt={data.scope}
                   className='rounded-lg hover:shadow-2xl z-20 transition-all duration-500 ease-out'
                   style={{
                      transform: hovering
                         ? 'translateZ(20px)'
                         : 'translateZ(0)',
                   }}
-                  image={getImage(data.img)}
+                  src={data.img}
                />
             </Tilt>
-         </NavLink>
+         </a>
 
          <section className='p-6'>
             <h3 className='font-bold text-sm tracking-tight text-purple-800'>

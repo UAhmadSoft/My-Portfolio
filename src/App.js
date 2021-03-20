@@ -21,7 +21,7 @@ function App() {
                <Route exact path='/work' component={Work} />
                <Route exact path='/contact' component={Contact} />
             </Switch>
-            {/* <Footer /> */}
+            <Footer />
          </ThemeProvider>
       </div>
    );
