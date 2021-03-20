@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import Tilt from 'react-parallax-tilt';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import cls from 'classnames';
 
 import Tag from '../tag';
 import LineClamp from '../line-clamp';
 import * as styles from './project-card.module.css';
-import { NavLink } from 'react-router-dom';
 
 const ProjectCard = ({ className = '', data }) => {
    const [hovering, setHovering] = useState(false);

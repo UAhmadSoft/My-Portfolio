@@ -9,6 +9,7 @@ const Hero = () => {
          className={cls(
             `h-screen w-full flex items-center relative overflow-hidden hero`
          )}
+         style={{ paddingTop: 150 }}
       >
          <div className='container md:-mt-40'>
             <article className='flex flex-col'>
