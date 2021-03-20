@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
+import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button'; //Add this line Here
 
 import Header from './Reuseables/Header';
 import Footer from './Reuseables/Footer';
@@ -22,6 +23,7 @@ function App() {
                <Route exact path='/contact' component={Contact} />
             </Switch>
             <Footer />
+            <ScrollUpButton />
          </ThemeProvider>
       </div>
    );
