@@ -19,7 +19,7 @@ const ProjectCard = ({ className = '', data }) => {
       >
          <a
             target='_blank'
-            // rel='noreferrer'
+            rel='noreferrer'
             title='Go to live website'
             href={data.url}
          >
