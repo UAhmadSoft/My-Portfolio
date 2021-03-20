@@ -70,9 +70,9 @@ const Projects = () => {
          title: 'Portfolio Site',
          scope: 'My Portfolio Site',
          description: `This is my personal website. I created it to showcase my projects, to introduce me to people, and to provide them a way to contact me. I designed and built it myself(I'm learning design so this is kind of a big deal for me 😊 )`,
-         url: 'https://mern-chat-app-frontend.herokuapp.com/',
+         url: 'https://ahmadportfolio1.netlify.app',
          img: 'http://i.imgur.com/zMlAD5O.png',
-         github: 'https://github.com/UAhmadSoft/MERN-Chat-App-React',
+         github: 'https://github.com/UAhmadSoft/My-Portfolio',
          tags: ['React Js', 'CSS 3', 'TailwindCSS', 'UI Design'],
       },
    ];
