@@ -11,7 +11,7 @@ const Projects = () => {
          url: 'https://react-colors-project.herokuapp.com/',
          img: 'https://i.imgur.com/9x1F9At.png',
          github:
-            'https://github.com/UAhmadSoft/Color-Project-Frontend-React/',
+            'https://github1s.com/UAhmadSoft/Color-Project-Frontend-React/',
          tags: [
             'React Js',
             'Node Js',
@@ -29,7 +29,7 @@ const Projects = () => {
             'A Real-time text messaging App built on MERN Stack',
          url: 'https://mern-chat-app-frontend.herokuapp.com/',
          img: 'https://i.ibb.co/0cft435/Screenshot-75.png',
-         github: 'https://github.com/UAhmadSoft/MERN-Chat-App-React',
+         github: 'https://github1s.com/UAhmadSoft/MERN-Chat-App-React',
          tags: [
             'React Js',
             'Node Js',
@@ -55,7 +55,7 @@ const Projects = () => {
          url: 'https://blogen-app.herokuapp.com/',
          img: 'https://i.ibb.co/64zfJJV/Screenshot-52.png',
          github:
-            'https://github.com/UAhmadSoft/Blogen-App-Node-Express-Js',
+            'https://github1s.com/UAhmadSoft/Blogen-App-Node-Express-Js',
          tags: [
             'Node Js',
             'Bootstrap 4',
@@ -72,7 +72,7 @@ const Projects = () => {
          description: `This is my personal website. I created it to showcase my projects, to introduce me to people, and to provide them a way to contact me. I designed and built it myself(I'm learning design so this is kind of a big deal for me 😊 )`,
          url: 'https://ahmadportfolio1.netlify.app',
          img: 'http://i.imgur.com/zMlAD5O.png',
-         github: 'https://github.com/UAhmadSoft/My-Portfolio',
+         github: 'https://github1s.com/UAhmadSoft/My-Portfolio',
          tags: ['React Js', 'CSS 3', 'TailwindCSS', 'UI Design'],
       },
    ];
