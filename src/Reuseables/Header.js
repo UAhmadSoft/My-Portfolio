@@ -17,7 +17,8 @@ const Header = () => {
           animated ${isScrolled ? 'swingOutX' : 'swingInX'}
          `}
          style={{
-            backgroundColor: '#54a0ff',
+            backgroundColor: '#343A40',
+            color: '#ffffff',
          }}
       >
          <div className='container flex items-center justify-between py-4'>

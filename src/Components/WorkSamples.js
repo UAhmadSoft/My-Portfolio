@@ -79,9 +79,9 @@ and Many more`,
    ];
 
    return (
-      <section className='mb-20 sm:mb-10 container section-margin-top'>
+      <section className='mb-20 sm:mb-10 container section-margin-top text-white'>
          <article className='text-center'>
-            <h3 className='text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-4'>
+            <h3 className='text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold text-white tracking-tight mb-4'>
                Work samples
             </h3>
             <div className='font-medium sm:font-semibold'>

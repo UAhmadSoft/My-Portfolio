@@ -31,16 +31,33 @@ const NavMenu = () => {
                onClick={() => setOpen(false)}
                className={`flex flex-col menu md:flex-row md:items-center`}
             >
-               <NavLink activeClassName='active' exact to='/'>
+               <NavLink
+                  activeClassName='active'
+                  exact
+                  to='/'
+                  className='NavItem'
+               >
                   Home
                </NavLink>
-               <NavLink activeClassName='active' to='/about'>
+               <NavLink
+                  activeClassName='active'
+                  to='/about'
+                  className='NavItem'
+               >
                   About
                </NavLink>
-               <NavLink activeClassName='active' to='/work'>
+               <NavLink
+                  activeClassName='active'
+                  to='/work'
+                  className='NavItem'
+               >
                   Work
                </NavLink>
-               <NavLink activeClassName='active' to='/contact'>
+               <NavLink
+                  activeClassName='active'
+                  to='/contact'
+                  className='NavItem'
+               >
                   Contact
                </NavLink>
             </section>

@@ -5,3 +5,24 @@
 .devphoto:hover {
    border-radius: 59% 41% 29% 71% / 26% 38% 62% 74%;
 }
+
+.prose h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #fff !important;
+}
+
+.prose * {
+   color: #fff !important;
+}
+
+.prose strong {
+   color: #c069ff !important;
+}
+
+.prose a {
+   color: #c069ff !important;
+}

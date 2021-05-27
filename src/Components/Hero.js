@@ -13,18 +13,22 @@ const Hero = () => {
       >
          <div className='container md:-mt-40'>
             <article className='flex flex-col'>
-               <h1 className='text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mb-3 sm:mb-8'>
+               <h1 className='text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-white mb-3 sm:mb-8'>
                   I'm a Full stack web developer
                </h1>
-               <h3 className='order-first sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-purple-600 mb-3'>
+               <h3
+                  style={{ color: '#C066D8' }}
+                  className='order-first sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase mb-3'
+               >
                   <NavLink to='/about'>
                      HELLO, MY NAME IS UMAD AHMAD
                   </NavLink>
                </h3>
-               <p className='max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-12 sm:mb-14 text-gray-500'>
-                  I'm a freelancer. I develop outstanding websites and
-                  webapps with beautiful and smooth user interfaces
-                  with a fast and scalable backend.
+               <p className='max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-12 sm:mb-14 text-white'>
+                  I'm a freelancer as MERN Web Developer. I love to
+                  develop outstanding websites and webapps with
+                  beautiful and smooth user interfaces with a fast and
+                  scalable backend.
                </p>
             </article>
 

@@ -88,15 +88,15 @@ const ProjectCard = ({ className = '', data }) => {
          </a>
 
          <section className='p-6'>
-            <h3 className='font-bold text-sm tracking-tight text-purple-800'>
+            <h3 className='font-bold text-sm tracking-tight purpleText'>
                {data.scope}
             </h3>
-            <h2 className='text-xl font-extrabold tracking-tight text-gray-900 mt-1 capitalize'>
+            <h2 className='text-xl font-extrabold tracking-tight text-white mt-1 capitalize'>
                {data.title}
             </h2>
 
             <LineClamp
-               className='mt-3'
+               className='mt-3 text-white'
                text={data.description}
                component={
                   <section className='my-6'>
@@ -115,7 +115,7 @@ const ProjectCard = ({ className = '', data }) => {
                      target='_blank'
                      rel='noreferrer'
                      href={data.github}
-                     className='hover:text-purple-400 py-1.5 px-3 bg-purple-50 rounded-md transition-colors font-bold text-purple-500 text-[13px]'
+                     className=' py-1.5 px-3 rounded-md transition-colors font-bold cardBtns text-[13px]'
                   >
                      Source code
                   </a>
@@ -123,7 +123,7 @@ const ProjectCard = ({ className = '', data }) => {
                      target='_blank'
                      rel='noreferrer'
                      href={data.url}
-                     className='hover:text-purple-400 py-1.5 px-3 bg-purple-50 rounded-md transition-colors font-bold text-purple-500 text-[13px]'
+                     className=' py-1.5 px-3 rounded-md transition-colors font-bold cardBtns text-[13px]'
                   >
                      Live link
                   </a>

@@ -23,10 +23,10 @@ const About = () => {
                textAlign: 'left',
             }}
          >
-            <h1 className='text-2xl sm:text-4xl lg:text-5xl leading-none font-extrabold text-gray-900 tracking-tight'>
+            <h1 className='text-2xl sm:text-4xl lg:text-5xl leading-none font-extrabold text-white tracking-tight'>
                About me
             </h1>
-            <div className='max-w-4xl text-lg font-medium text-gray-600 sm:leading-9'>
+            <div className='max-w-4xl text-lg font-medium text-white sm:leading-9'>
                <p>
                   I'm a full stack web developer with 1 year of
                   experience. I create outstanding websites and
@@ -39,10 +39,10 @@ const About = () => {
                </p>
             </div>
 
-            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight'>
+            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-white tracking-tight'>
                Get in touch
             </h2>
-            <p className='max-w-4xl text-lg font-medium text-gray-600 sm:leading-9'>
+            <p className='max-w-4xl text-lg font-medium text-white sm:leading-9'>
                The easiest way is to send an e-mail with your project
                details to
                <a href='mailto:u.ahmadnode@gmail.com'>
@@ -54,10 +54,10 @@ const About = () => {
                my social media links.
             </p>
 
-            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight'>
+            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-white tracking-tight'>
                Tech stack
             </h2>
-            <p className='max-w-4xl text-lg font-medium text-gray-600 sm:leading-9'>
+            <p className='max-w-4xl text-lg font-medium text-white sm:leading-9'>
                I work in <b>Javascript</b> and usually use{' '}
                <b>ReactJS</b> to create websites. My skills include -
             </p>
@@ -83,10 +83,10 @@ const About = () => {
                management and styling paradigms.
             </p>
 
-            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight'>
+            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-white tracking-tight'>
                What you can expect
             </h2>
-            <p className='max-w-4xl text-lg font-medium text-gray-600 sm:leading-9'>
+            <p className='max-w-4xl text-lg font-medium text-white sm:leading-9'>
                I am fast and meticulous. You can always expect
             </p>
             <ul>
@@ -118,7 +118,7 @@ const About = () => {
                   </em>
                </li>
             </ul>
-            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight'>
+            <h2 className='text-xl sm:text-3xl lg:text-4xl leading-none font-extrabold text-white tracking-tight'>
                What I don't do
             </h2>
             <ul>

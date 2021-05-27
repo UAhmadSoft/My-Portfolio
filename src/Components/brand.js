@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import image2 from '../Assets/Images/profile.jpg';
+// import image2 from '../Assets/Images/profile.jpg';
+import image2 from '../Assets/Images/image.jpg';
 
 const Brand = ({ className }) => {
    return (
@@ -21,7 +22,7 @@ const Brand = ({ className }) => {
             className='rounded-full mr-2'
          />
          <h1
-            className='font-bold tracking-tighter'
+            className='font-bold tracking-tighter text-white'
             style={{
                letterSpacing: 1,
                fontFamily: 'Nunito, sans-serif',

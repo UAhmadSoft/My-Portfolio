@@ -3,5 +3,6 @@
 }
 
 .menu .active {
-   @apply text-purple-600 md:text-black;
+   /* @apply text-purple-600; */
+   color: #b033fa;
 }

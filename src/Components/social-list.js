@@ -36,7 +36,7 @@ const SocialList = ({ classes }) => {
                   href='mailto:u.ahmadnode@gmail.com'
                >
                   <div className='grid grid-flow-col auto-cols-max gap-x-3'>
-                     <div className='text-3xl bg-purple-100 text-purple-500 rounded-full p-3'>
+                     <div className='text-3xl bg-purple-100 purpleText rounded-full p-3'>
                         <FaEnvelope />
                      </div>
                      <div className='flex flex-col justify-center font-bold'>
@@ -73,7 +73,7 @@ const SocialList = ({ classes }) => {
             <li>
                <a
                   className='p-6 border rounded-2xl bg-[#0A66C2] border-gray-200 transition-all duration-200 hover:border-gray-300 block text-white hover:text-gray-100 '
-                  href='https://www.linkedin.com/in/umad-ahmad-653319184/'
+                  href='https://www.linkedin.com/in/uahmadsoft/'
                   target='_blank'
                   rel='noreferrer'
                   style={{ backgroundColor: '#0A66C2' }}

@@ -1,6 +1,8 @@
 .hero {
-   background: rgb(240, 249, 255) url('../Assets/Images/blob-bg.svg')
-      bottom left no-repeat;
+   background: #2e3233 url('../Assets/Images/blob-bg.svg') bottom left
+      no-repeat;
+   /* background: rgb(240, 249, 255) url('../Assets/Images/blob-bg.svg')
+      bottom left no-repeat; */
    min-height: 650px;
 }
 
